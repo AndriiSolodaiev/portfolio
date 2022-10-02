@@ -1,5 +1,10 @@
 .section {
-    padding-top: 120px;
-    padding-bottom: 120px;
-}
+    padding-top: 64px;
+    padding-bottom: 64px;
 
+    @media screen and (min-width:1440px) {
+        padding-top: 120px;
+        padding-bottom: 120px;
+    }
+
+}
