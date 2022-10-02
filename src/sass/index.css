@@ -82,10 +82,50 @@ body {
 }
 
 .section {
+  padding-top: 64px;
+  padding-bottom: 64px;
+}
+@media screen and (min-width: 1440px) {
+  .section {
+    padding-top: 120px;
+    padding-bottom: 120px;
+  }
+}
+
+.title {
+  font-size: 32px;
+  line-height: 1.19;
+  margin-bottom: 16px;
+  color: var(--title-text-color);
+}
+
+.skillset__container {
+  display: flex;
+  flex-direction: column;
+  gap: 48px;
+  max-width: 360px;
+}
+.skillset__list {
+  display: flex;
+  gap: 48px;
+  flex-direction: column;
+}
+.skillset__title {
+  font-size: 24px;
+  line-height: 1.5;
+  margin-bottom: 12px;
+  color: var(--title-text-color);
+}
+.skillset__icon {
+  fill: var(--accent-color);
+  width: 32px;
+  height: 32px;
+  margin-bottom: 24px;
+=======
   padding-top: 120px;
   padding-bottom: 120px;
 }
 
 .skillset {
   background-color: aquamarine;
-}/*# sourceMappingURL=index.css.map */
+}
