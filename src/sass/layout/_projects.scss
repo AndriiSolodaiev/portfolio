@@ -1,1 +1,14 @@
-
+.projects__discription {
+  background-color: var(--secondary-bg-color);
+  padding: 40px 32px;
+}
+.projects__item {
+  width: 100%;
+}
+.projects__title {
+  margin-bottom: 13px;
+}
+.projects__list {
+  display: flex;
+  gap: 48px;
+}
